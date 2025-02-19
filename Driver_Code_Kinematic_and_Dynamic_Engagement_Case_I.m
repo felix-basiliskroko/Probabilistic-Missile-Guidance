@@ -7,7 +7,7 @@ clc
 
 %% kinematic engagement
 
-time = 500; %seconds
+time = 250; %seconds
 Ts = 0.1;
 
 % x(1)    :: hP
@@ -150,4 +150,3 @@ ylimits = ylim;
 xlimits = xlim;
 ylim([0 ylimits(2)])
 xlim([0 xlimits(2)])
-
